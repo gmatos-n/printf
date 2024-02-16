@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmatos-n <gmatos-n@student.42.fr>          +#+  +:+       +#+        */
+/*   By: gmatos-n <gmatos-n@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/13 15:04:45 by gmatos-n          #+#    #+#             */
-/*   Updated: 2024/02/13 15:08:10 by gmatos-n         ###   ########.fr       */
+/*   Updated: 2024/02/16 17:09:15 by gmatos-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
+# include <unistd.h>
 
 int ft_printf(const char *str, ...);
 
